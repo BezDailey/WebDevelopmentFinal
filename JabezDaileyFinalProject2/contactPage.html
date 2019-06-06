@@ -1,0 +1,92 @@
+<!--
+    The contact Page Used for my html final project
+    Author: Jabez Dailey
+    Date: 4/29/2019
+-->
+<!DOCTYPE html>
+<html>
+    <!--Html Metadata-->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="numerology, inspiration, life path, astrology" />
+        <title>Contact Us</title>
+        <link href="css/main.css" rel="stylesheet" />
+        <link href="css/normalize.css" rel="stylesheet" />
+        <link href="css/contactPageCSS.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src=""></script>
+    </head>
+    <!--Information Showing on Webpage-->
+    <body>
+        <!--Webpage Header-->
+        <header>
+            <img src="images/numerologyHeader.png" alt="Numerology Header" />
+        </header>
+        <!--Creates Navigation Menu With Favicon. Not Seen Unless Using Mobile Screen Size-->
+        <nav class="horizontal">
+            <!--Navicon Image-->
+            <a id="navicon" href="#"><img src="images/navicon.png" alt="" /></a>
+            <!--Navigation Menu Options-->
+            <ul>
+                <!--Option One-->
+                <li><a href="index.html"><h1>Hompage</h1></a></li>
+                <!--Option Two-->
+                <li><a href="numberOne.html"><h1>Life Path One</h1></a></li>
+                <!--Option Three-->
+                <li><a href="numberTwo.html"><h1>Life Path Two</h1></a></li>                   
+            </ul>
+        </nav>
+        <!--Section For Use of Flexbox-->
+        <section>
+            <!--Navigation Menu Used for Tablet and Mobile Screens-->
+            <nav>
+                <!--Navigation Image-->
+                <img src="images/numerologyHomepage.png" alt="Numerology Homepage" />
+                <!--Navigation Options-->
+                <ul>
+                    <!--Option One-->
+                    <li><a href="numberOne.html"><h1>Life Path One</h1></a></li>
+                    <!--Option Two-->
+                    <li><a href="numberTwo.html"><h1>Life Path Two</h1></a></li>
+                    <!--Option Three-->
+                    <li><a href="index.html"><h1>Homepage</h1></a></li>
+                </ul>
+            </nav>
+            <!--Article Explaning Contact Page and Containing Contact Form-->
+            <article>
+                <h1>Contact Us</h1>
+                <p>Contact For Consulting Services.</p>
+                <!--Contact Form-->
+                <form id="contactInfo" action="" method="POST">
+                    <fieldset id="custInfo">
+                        <!--First Name Box-->
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <!--Last Name Box-->
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <!--Country Box with Options-->
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <!--Option One-->
+                            <option value="australia">Australia</option>
+                            <!--Option Two-->
+                            <option value="canada">Canada</option>
+                            <!--Option Three-->
+                            <option value="usa">USA</option>
+                        </select>
+                        <!--Subject Box-->
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                        <!--Submit Button-->
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+        <!--Footer Information-->
+        <footer>
+            <p>Jabez Dailey &#8226; CIST 2341 Project</p>
+        </footer>
+    </body>
+</html>
